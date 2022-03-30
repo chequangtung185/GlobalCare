@@ -6,11 +6,13 @@ import Login from "../authenScreen/login";
 
 export default function AppRouter(){
     return(
-        <Router>
+        <BrowserRouter>
             <Routes>
+                <Route path="/" element={<Login />} />
                 <Route path="/register" element={<Register />} />
             </Routes>
-        </Router>
+        </BrowserRouter>
+        
 
     )
 }

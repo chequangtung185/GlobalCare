@@ -35,13 +35,8 @@ class login extends React.Component{
                         </div>
                         <div className="btn-link">  
 
-                        <Router>
                            <Link to="/register" className="register">Đăng ký tài khoản</Link>
                            
-                                <Routes>
-                                    <Route path="/register" element={<Register />} />
-                                </Routes>
-                            </Router>
 
                             <button className="btn-show">Tiếp theo</button>
                         </div>
