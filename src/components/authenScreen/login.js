@@ -25,10 +25,17 @@ class login extends React.Component{
                             <p className="txt">Sử dụng tài khoản GlobalCare</p>
                         </div>     
                         
-                        <div>
-                            <input className="inputtext" type='text' placeholder='Tên đăng nhập'/>
-                            <input className="password" type='password' placeholder='Nhập mật khẩu'/>
-
+                        <div className="inputField">
+                            <div className="username"> 
+                                <p className="text-h3">Tên đăng nhập</p>
+                                <input className="inputtext" type='text' placeholder='Tên đăng nhập (*)'/>
+                            </div>
+                           
+                           <div className="password">
+                                <p className="text-h3">Mật khẩu</p>
+                                <input className="input_password" type='password' placeholder='Nhập mật khẩu (*)'/>
+                           </div>
+                            
                             <br/>
                             <div className="forgotpass">
                                 <a  href="https://www.google.com/">Quên mật khẩu ?</a><br></br>
