@@ -40,9 +40,11 @@
 .titlelogin{
     display: flex;
     justify-content: center;
-    font-weight: 450;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 28px;
     margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(65, 65, 65);
 }
 .txt{
     display: flex;
@@ -62,6 +64,34 @@
     border-color: #ccc5c5;
     border-style: solid;
 }
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.input_password{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-width: -10px;
+    border-color: #ccc5c5;
+    border-style: solid;
+}
+
+.text-h3{
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+    font-weight: 600;
+}
+.password{
+    margin-top: 15px;
+}
+
 a{
     text-decoration: none;
     margin-top: 20px;
@@ -69,6 +99,19 @@ a{
     color: #2372d7
     ;
 }
+
+.input_password{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-width: -10px;
+    border-color: #ccc5c5;
+    border-style: solid;
+}
+
 .forgotpass{
     margin-top: 20px;
 }
