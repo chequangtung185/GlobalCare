@@ -5,6 +5,7 @@ import Login from "../authenScreen/login";
 import Home from "../home/home";
 import ReportDemo from "../reportDemo/reportDemo";
 
+
 export default function AppRouter(){
     return(
         <BrowserRouter>
@@ -15,8 +16,8 @@ export default function AppRouter(){
                 <Route path="/home/reportdemo" element={<ReportDemo />} />
             </Routes>
         </BrowserRouter>
+        
+
     )
 }
-
-
 
