@@ -1,5 +1,6 @@
 import React, { Component, useState } from "react";
 import { InputGroup, FormControl } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logo from '../assets/images/logoglobalcare.png';
 import logo1 from '../assets/images/logoregister1.png';
 import logo2 from '../assets/images/logoregister2.png';
@@ -52,7 +53,7 @@ function Register(){
                             </div>                     
                         </div>
                         <div className="btn-link-2">
-                            <button className="btn-cancle">Hủy</button>
+                            <Link to="/" className="btn-cancle">Hủy</Link>
                             <button className="btn-register">Đăng ký tài khoản</button>
                         </div>
                     </form>
