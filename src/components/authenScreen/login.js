@@ -10,7 +10,7 @@ import {
   } from "react-router-dom";
 import Register from "./register";
 
-class login extends React.Component{
+class Login extends React.Component{
     render(){
         return (
             <div className="container">
@@ -49,7 +49,7 @@ class login extends React.Component{
 
     }
 
-    export default login;
+    export default Login;
     
 
 
