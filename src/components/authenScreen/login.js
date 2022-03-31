@@ -27,6 +27,8 @@ class login extends React.Component{
                         
                         <div>
                             <input className="inputtext" type='text' placeholder='Tên đăng nhập'/>
+                            <input className="password" type='password' placeholder='Nhập mật khẩu'/>
+
                             <br/>
                             <div className="forgotpass">
                                 <a  href="https://www.google.com/">Quên mật khẩu ?</a><br></br>
