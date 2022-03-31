@@ -31,7 +31,7 @@ function Register(){
                         </div>
                         <div className="row-input">
                             <input className="input-register" type='text' placeholder='Chứng minh thư (*)'/>
-                            <input className="input-register" type='text' placeholder='Số điện thoại (*)'/> 
+                            <input className="input-register" type='text' placeholder='Số điện thoại của bạn (*)'/> 
                         </div>
                         <div className="row-input-robot">
                             <div>
