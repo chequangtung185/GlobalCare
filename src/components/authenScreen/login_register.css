@@ -69,6 +69,19 @@ a{
     color: #2372d7
     ;
 }
+
+.input_password{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-width: -10px;
+    border-color: #ccc5c5;
+    border-style: solid;
+}
+
 .forgotpass{
     margin-top: 20px;
 }
