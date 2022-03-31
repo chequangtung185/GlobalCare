@@ -1,19 +1,21 @@
-import { Router } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 import Register from "../authenScreen/register";
 import Login from "../authenScreen/login";
+import Home from "../Home/home";
 
-
-export default function AppRouter(){
+function AppRouter(){
+    
     return(
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Login />} />
-                <Route path="/register" element={<Register />} />
-            </Routes>
-        </BrowserRouter>
-        
+         <BrowserRouter>
+         <Routes>
+             <Route path='/login' element={<Login/>}></Route>
+             <Route path='/register' element={<Register/>}/>
+            <Route path='/home' element={<Home/>}/>
+         </Routes>
+     </BrowserRouter>
 
     )
 }
 
+export default AppRouter;
