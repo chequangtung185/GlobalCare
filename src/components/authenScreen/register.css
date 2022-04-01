@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
-
-.imagelogo{
-    display: flex;
-    justify-content: center;
-    
-}
-
 .imagelogoReg{
     display: flex;
     justify-content: flex-start;
@@ -22,107 +15,12 @@
     margin-left: 8px;
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-.formlogin{
-    background-color: white;
-    padding: 5rem;
-}
-.titlelogin{
-    display: flex;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 28px;
-    margin-top: 10px;
-
-    font-family: 'Roboto', sans-serif;
-    color: rgb(65, 65, 65);
-}
-.txt{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    margin-top: -20px;
-    margin-bottom: 40px;
-    color: black;
-}
-.inputtext{
-    width: 400px;
-    height: 50px;
-    border-radius: 5px;
-    padding: 10px;
-    padding-left: 30px;
-    font-size: 20px;
-    border-width: -10px;
-    border-color: #ccc5c5;
-    border-style: solid;
-}
-
-.inputField{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.input_password{
-    width: 400px;
-    height: 50px;
-    border-radius: 5px;
-    padding: 10px;
-    padding-left: 30px;
-    font-size: 20px;
-    border-width: -10px;
-    border-color: #ccc5c5;
-    border-style: solid;
-}
-
-.text-h3{
-    color: rgb(87, 87, 87);
-    font-size: 18px;
-    font-weight: 600;
-}
-.password{
-    margin-top: 15px;
-}
-
 a{
     text-decoration: none;
     margin-top: 20px;
     font-size: 20px;
     color: #2372d7
     ;
-}
-
-.input_password{
-    width: 400px;
-    height: 50px;
-    border-radius: 5px;
-    padding: 10px;
-    padding-left: 30px;
-    font-size: 20px;
-    border-width: -10px;
-    border-color: #ccc5c5;
-    border-style: solid;
-}
-
-.forgotpass{
-    margin-top: 20px;
-}
-
-.btn-link{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
 }
 
 .btn-link-2{
@@ -132,25 +30,19 @@ a{
     flex-direction: row;
     align-items: flex-end;
 }
-.btn-show{
-    background-color: #15a3e9;
-    color: white;
-    border-radius: 5px;
-    width: 110px;
-    height: 50px;
-    border-color: white;
-    font-size: 18px;
-    margin-top: 50px;
-}
-.register{
-    padding-top: 40px;
-}
 
 .row-input{
     margin-top: 30px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
+}
+
+.row-input-email{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .input-register{
@@ -168,7 +60,7 @@ a{
 }
 
 .input-register-mail{
-    width: 100%;
+    width: 97%;
     height: 50px;
     border-radius: 5px;
     padding: 10px;
@@ -227,7 +119,6 @@ a{
     border-width: -10px;
 
 }
-
 .form-register{
     background-color: white;
     padding: 2rem;
@@ -260,6 +151,14 @@ a{
     margin-top: 50px;
     text-decoration: none;
 }
+
+p{
+    margin-left: 12px;
+    margin-top: 8px;
+    color: rgb(215, 6, 6);
+}
+
+
 
 
 
